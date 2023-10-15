@@ -1,1 +1,1 @@
-addEventListener("selectionchange", () => { console.log(document.getSelection()); });
+document.onselectionchange = () => { console.log(document.getSelection()); }
